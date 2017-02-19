@@ -28,7 +28,7 @@
 # Description
 # -----------
 #
-#  Completion script for pidcat 
+#  Completion script for pidcat
 #  (https://github.com/JakeWharton/pidcat/)
 #
 # ------------------------------------------------------------------------------
@@ -57,6 +57,7 @@ _pidcat() {
     '-v[Print the version number and exit]' \
     '-l[Minimum level to be displayed]: :_pidcat_log_levels' \
     '-a[Print all log messages]' \
+    '-n[Do not use colorful output]' \
     '--color-gc[Color garbage collection]' \
     '--always-display-tags[Always display the tag name]' \
     '--current[Filter logcat by current running app]' \
